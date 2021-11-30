@@ -86,9 +86,12 @@ body {
 
 .container {
   max-width:1170px;
-  margin-right: auto;
-  margin-left: auto;
 
+}
+
+
+.flex {
+  display: flex;
 }
 
 .btn {
@@ -209,7 +212,6 @@ color: #333333;
 
 .header-list {
   padding-top: 27px;
-  padding: 27px;
   padding-left: 45px;
   display:flex;
 }
@@ -280,19 +282,6 @@ color: #333333;
    margin-bottom: 70px;
  }
 
- .section-offer-wrap {
-   display: flex;
-   justify-content: space-between;
-   margin-bottom: 70px;
- }
-
- .section-offer-leftcol,
- .section-offer-rightcol
-  {
-  display: flex;
-  flex-direction: column;
- }
-
 
 .offer-form input{
   font-size: 16px;
@@ -322,7 +311,7 @@ color: #333333;
 }
 
 .color-number {
-  color: var (--gold);
+  color: var(--gold);
   padding-right: 10px;
   cursor: pointer;
 }
@@ -508,20 +497,11 @@ color: #333333;
   margin-bottom: 70px;
 }
 
-.section-services-list {
-  display: flex;
-  flex-flow: row wrap;
-  margin-right: -23px;
-}
 
 .section-services-item{
-    flex: 0 1 572px;
-    vertical-align: middle;
-    margin-right: 23px;
     margin-bottom: 23px;
     padding: 191px 126px 50px 45px;
     border-radius: 15px;
-    min-height: 330px;
     background-color: var(--white);
     overflow: hidden;
     transition-property: transform, color;
@@ -589,16 +569,7 @@ color: #333333;
 }
 
 
-
-.section-benefit-list {
-  display: flex;
-  margin-right: -23px;
-  flex-flow: row wrap;
-}
-
 .section-benefit-item {
-  flex: 0 1 calc(100% / 4 - var(--gutter));
-  max-height: 275px;
   margin-bottom: 23px;
   border-radius: 15px;
   background-color: var(--white);
@@ -609,11 +580,6 @@ color: #333333;
 
 }
 
-.section-benefit-item:not(:last-child) {
-
-  margin-right: 23px;
-
-}
 
 .section-benefit-item:hover {
   transform: scale(1.05);
@@ -623,7 +589,7 @@ color: #333333;
 
 .section-benefit-card {
   max-height: 275px;
-  padding: 40px 42px 41px 45px;
+  padding: 40px 38px 41px 45px;
 }
 
 .section-benefit-image {
@@ -655,18 +621,10 @@ color: #333333;
   margin-bottom: 70px;
 }
 
-.section-placement-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -23px;
-}
 
 .section-placement-item {
-  flex: 0 1 374px;
-  min-height: 440px;
   background: var(--white);
   border-radius: 15px;
-  margin-right: 23px;
   margin-bottom: 23px;
 }
 
@@ -734,7 +692,7 @@ color: #333333;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 373px 52px 27px 54px;
+    padding: 373px 44px 27px 54px;
     height: 440px;
     border-radius: 15px;
     transition-property: transform, color;
@@ -779,22 +737,19 @@ color: #333333;
 
   /* CONTACTS */
 
-  .conctacts-container {
-    margin-bottom: 16px;
+  .contacts-container {
+    margin-bottom: 35px;
   }
 
-  .contacts-wrapper {
-    display: flex;
-    margin-bottom: 30px;
-  }
 
 .contacts-leftwrap {
   padding: 45px;
   border-radius: 15px;
   min-height: 618px;
   background-color: white;
-  margin-right: 200px;;
 }
+
+
 
 .contacts-adress {
   display: flex;
@@ -844,23 +799,18 @@ color: #333333;
   font-weight: 400;
   line-height: 1;
 }
-/*
+
 .contacts-rightwrap {
   border-radius: 15px;
   min-width: 653px;
-  min-height: 528px;
+  min-height: 100%;
   background-image: url(../img/reception.jpg);
   background-repeat: no-repeat;
   background-size: auto 100%;
   overflow: hidden;
 }
-*/
 
-.contacts-rightwrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
+
 
 .name,
 .tel,
@@ -870,6 +820,8 @@ color: #333333;
 
 
 .form-heading {
+  margin: 0;
+  margin-bottom: 66px;
   text-align: center;
   font-weight: normal;
   font-size: 40px;
@@ -878,22 +830,28 @@ color: #333333;
 
 }
 
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contacts-form input {
   font-size: 16px;
   color: #a1a1a1;
   padding-top: 8px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 345px;
+  width: 60%;
   height: 70px;
   border-radius: 15px;
   border: 1px solid var(--white);
   background-color: var(--white);
   margin-bottom: 25px;
-  margin-left: 8px;
 }
 
 .texta {
+    width: 60%;
     font-size: 16px;
     color: #a1a1a1;
     padding: 18px 5px 0 20px;
@@ -966,7 +924,7 @@ color: #333333;
 
 
 .form_btn {
-    width: 345px;
+    width: 60%;
     color: white;
     padding: 27px 29px;
     line-height: 16px;
@@ -978,7 +936,6 @@ color: #333333;
     cursor: pointer;
     box-sizing: border-box;
     display: inline-block;
-    margin-left: 8px;
 }
 
 

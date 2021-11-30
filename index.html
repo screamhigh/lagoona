@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/normolize.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Lagoona Hotel</title>
   <base target="_blank">
@@ -79,8 +80,8 @@
 
   <section class="section-offer">
     <div class="container offer-container">
-      <div class="section-offer-wrap">
-        <div class="section-offer-leftcol">
+      <div class="row">
+        <div class="col-6">
           <h2 class="section-heading">
             Быстрая бронь
           </h2>
@@ -97,7 +98,7 @@
                 </span>
             </div>
           </form>
-          <!-- <div class="section-offer-item-inside offer-maldivi">
+          <!-- <div class="col-6 section-offer-item-inside offer-maldivi">
             <h3 class="section-offer-tours-left-heading">
               Мальдивские острова
             </h3>
@@ -113,7 +114,7 @@
           </div> -->
 
         </div>
-        <div class="section-offer-rightcol">
+        <div class="col-6">
           <h2 class="section-heading">
             Спецпредложения
           </h2>
@@ -150,38 +151,46 @@
       <h2 class="section-heading">
         Услуги
       </h2>
-      <ul class="section-services-list">
-        <li class="section-services-item exlusive">
-          <a href=" " class="services-links arrow">
-            Экслюзивное обслуживание
-          </a>
-          <p class="section-services-card-text">
-            Равным образом постоянный количественный рост и сфера нашей активности
-          </p>
+      <ul class="row">
+        <li class="col-6 flex">
+          <div class="section-services-item exlusive">
+            <a href=" " class="services-links arrow">
+              Экслюзивное обслуживание
+            </a>
+            <p class="section-services-card-text">
+              Равным образом постоянный количественный рост и сфера нашей активности
+            </p>
+          </div>
         </li>
-        <li class="section-services-item table">
-          <a href=" " class="services-links arrow">
-            Аренда банкетных залов
-          </a>
-          <p class="section-services-card-text">
-            Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.
-          </p>
+        <li class="col-6 flex">
+          <div class="section-services-item table">
+            <a href=" " class="services-links arrow">
+              Аренда банкетных залов
+            </a>
+            <p class="section-services-card-text">
+              Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.
+            </p>
+          </div>
         </li>
-        <li class="section-services-item pool">
-          <a href=" " class="services-links arrow">
-            Сауны, бассейны, бани, фитнес-залы
-          </a>
-          <p class="section-services-card-text">
-            Не следует, однако забывать, что начало повседневной работы по формированию позиции
-          </p>
+        <li class="col-6 flex">
+          <div class="section-services-item pool">
+            <a href=" " class="services-links arrow">
+              Сауны, бассейны, бани, фитнес-залы
+            </a>
+            <p class="section-services-card-text">
+              Не следует, однако забывать, что начало повседневной работы по формированию позиции
+            </p>
+          </div>
         </li>
-        <li class="section-services-item cars">
-          <a href=" " class="services-links arrow">
-            Охраняемые автомобильные стоянки
-          </a>
-          <p class="section-services-card-text">
-            Не следует, однако забывать, что начало повседневной работы по формированию позиции
-          </p>
+        <li class="col-6 flex">
+          <div class="section-services-item cars">
+            <a href=" " class="services-links arrow">
+              Охраняемые автомобильные стоянки
+            </a>
+            <p class="section-services-card-text">
+              Не следует, однако забывать, что начало повседневной работы по формированию позиции
+            </p>
+          </div>
         </li>
       </ul>
     </div>
@@ -192,70 +201,94 @@
       <h2 class="section-heading">
         Преимущества
       </h2>
-      <ul class="section-benefit-list">
-        <li class="section-benefit-item">
-          <div class="section-benefit-card">
+      <ul class="row">
+        <li class="col-3">
+          <div class="section-benefit-item">
+            <div class="section-benefit-card">
             <img src="img/bathtub.svg" alt="" class="section-benefit-image">
             <p class="section-benefit-text">
               Идейные соображения высшего порядка, а также постоянный количественный рост
             </p>
           </div>
+          </div>
+
         </li>
-        <li class="section-benefit-item">
-          <div class="section-benefit-card">
+        <li class="col-3">
+          <div class="section-benefit-item">
+            <div class="section-benefit-card">
             <img src="img/hanger.svg" alt="" class="section-benefit-image">
             <p class="section-benefit-text">
               Значимость этих проблем настолько очевидна, что вопрос остается открытым
             </p>
           </div>
+          </div>
+
         </li>
-        <li class="section-benefit-item">
-          <div class="section-benefit-card">
+        <li class="col-3">
+          <div class="section-benefit-item">
+            <div class="section-benefit-card">
             <img src="img/heating.svg" alt="" class="section-benefit-image">
             <p class="section-benefit-text">
               Таким образом реализация плановых заданий играет важную роль для понимания
             </p>
           </div>
+          </div>
+
         </li>
-        <li class="section-benefit-item">
-          <div class="section-benefit-card">
+        <li class="col-3">
+          <div class="section-benefit-item">
+            <div class="section-benefit-card">
             <img src="img/hotel-key.svg" alt="" class="section-benefit-image">
             <p class="section-benefit-text">
               Повседневная практика показывает, что сложившаяся структура организации
             </p>
           </div>
+          </div>
+
         </li>
-        <li class="section-benefit-item">
-          <div class="section-benefit-card">
+        <li class="col-3">
+          <div class="section-benefit-item">
+            <div class="section-benefit-card">
             <img src="img/parking.svg" alt="" class="section-benefit-image">
             <p class="section-benefit-text">
               Равным образом рамки и место обучения кадров способствует подготовки сотрудника
             </p>
           </div>
+          </div>
+
         </li>
-        <li class="section-benefit-item">
-          <div class="section-benefit-card">
+        <li class="col-3">
+          <div class="section-benefit-item">
+            <div class="section-benefit-card">
             <img src="img/reception.svg" alt="" class="section-benefit-image">
             <p class="section-benefit-text">
               Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса
             </p>
           </div>
+          </div>
+
         </li>
-        <li class="section-benefit-item">
-          <div class="section-benefit-card">
+        <li class="col-3">
+          <div class="section-benefit-item">
+            <div class="section-benefit-card">
             <img src="img/security-box.svg" alt="" class="section-benefit-image">
             <p class="section-benefit-text">
               Повседневная практика показывает, что дальнейшее развитие различных форм
             </p>
           </div>
+          </div>
+
         </li>
-        <li class="section-benefit-item">
-          <div class="section-benefit-card ">
+        <li class="col-3">
+          <div class="section-benefit-item">
+            <div class="section-benefit-card ">
             <img src="img/swimming-pool.svg" alt="" class="section-benefit-image">
             <p class="section-benefit-text">
               Значимость этого настолько очевидна, что консультация наших экспертов помогает
             </p>
           </div>
+          </div>
+
         </li>
       </ul>
     </div>
@@ -266,9 +299,10 @@
       <h2 class="section-heading">
         Размещение
       </h2>
-      <ul class="section-placement-list">
-        <li class="section-placement-item">
-          <div class="section-placement-card">
+      <ul class="row">
+        <li class="col-4 ">
+          <div class="section-placement-item">
+            <div class="section-placement-card">
             <div class="section-placement-card-img">
               <img src="img/1.png" alt=" " class="place_top_img">
             </div>
@@ -277,11 +311,11 @@
                 <div class="section-placement-card-info-text">от <b>4698 р</b> / ночь
                 </div>
                 <div class="section-placement-card-stars">
-                  <img src="../Lagoona/img/star.svg" alt=" Рейтинг отеля 4 звезды">
-                  <img src="../Lagoona/img/star.svg" alt="">
-                  <img src="../Lagoona/img/star.svg" alt="">
-                  <img src="../Lagoona/img/star.svg" alt="">
-                  <img src="../Lagoona/img/no-star.svg" alt="">
+                  <img src="img/star.svg" alt=" Рейтинг отеля 4 звезды">
+                  <img src="img/star.svg" alt="">
+                  <img src="img/star.svg" alt="">
+                  <img src="img/star.svg" alt="">
+                  <img src="img/no-star.svg" alt="">
                 </div>
               </div>
               <p class="section-placement-card-info-hotel">Lagoona española</p>
@@ -290,9 +324,12 @@
                   class="section-placement-card-link">Номера</a></button>
             </div>
           </div>
+          </div>
+
         </li>
-        <li class="section-placement-item">
-          <div class="section-placement-card">
+        <li class="col-4 ">
+          <div class="section-placement-item">
+            <div class="section-placement-card">
             <div class="section-placement-card-img">
               <img src="img/2.png" alt=" ">
             </div>
@@ -314,9 +351,12 @@
                   class="section-placement-card-link">Номера</a></button>
             </div>
           </div>
+          </div>
+
         </li>
-        <li class="section-placement-item">
-          <div class="section-placement-card">
+        <li class="col-4 ">
+          <div class="section-placement-item">
+            <div class="section-placement-card">
             <div class="section-placement-card-img">
               <img src="img/3.png" alt=" ">
             </div>
@@ -338,9 +378,12 @@
                   class="section-placement-card-link">Номера</a></button>
             </div>
           </div>
+          </div>
+
         </li>
-        <li class="section-placement-item">
-          <div class="section-placement-card">
+        <li class="col-4 ">
+          <div class="section-placement-item">
+            <div class="section-placement-card">
             <div class="section-placement-card-img">
               <img src="img/4.png" alt=" ">
             </div>
@@ -362,8 +405,11 @@
                   class="section-placement-card-link">Номера</a></button>
             </div>
           </div>
+          </div>
+
         </li>
-        <li class="section-placement-item">
+        <li class="col-4">
+         <div class="section-placement-item">
           <div class="section-placement-card">
             <div class="section-placement-card-img">
               <img src="img/5.png" alt=" ">
@@ -386,9 +432,11 @@
                   class="section-placement-card-link">Номера</a></button>
             </div>
           </div>
+         </div>
         </li>
-        <li class="section-placement-item">
-          <div class="section-placement-card">
+        <li class="col-4 ">
+          <div class="section-placement-item">
+            <div class="section-placement-card">
             <div class="section-placement-card-img">
               <img src="img/6.png" alt=" ">
             </div>
@@ -410,9 +458,12 @@
                   class="section-placement-card-link">Номера</a></button>
             </div>
           </div>
+          </div>
+
         </li>
-        <li class="section-placement-item">
-          <div class="section-placement-card">
+        <li class="col-4 ">
+          <div class="section-placement-item">
+            <div class="section-placement-card">
             <div class="section-placement-card-img">
               <img src="img/7.png" alt=" ">
             </div>
@@ -434,9 +485,12 @@
                   class="section-placement-card-link">Номера</a></button>
             </div>
           </div>
+          </div>
+
         </li>
-        <li class="section-placement-item">
-          <div class="section-placement-card">
+        <li class="col-4 ">
+          <div class="section-placement-item">
+            <div class="section-placement-card">
             <div class="section-placement-card-img">
               <img src="img/8.png" alt=" ">
             </div>
@@ -458,12 +512,17 @@
                   class="section-placement-card-link">Номера</a></button>
             </div>
           </div>
+          </div>
+
         </li>
-        <li class="section-placement-item section-placement-item-big">
-          <div class="section-placement-card-big card-big">
-            <a href="#" class="link_all arrow-white">
-              Посмотреть все варианты
-            </a>
+        <li class="col-4">
+          <div class="section-placement-item section-placement-item-big">
+            <div class="section-placement-card-big card-big">
+              <a href="#" class="link_all arrow-white">
+                Посмотреть все варианты
+              </a>
+          </div>
+
             <!--
                 <div class="section-placement-card-img">
                   <img src="img/9.png" alt=" ">
@@ -494,48 +553,53 @@
       <h2 class="section-heading">
         Контакты
       </h2>
-      <div class="contacts-wrapper">
-        <div class="contacts-leftwrap">
-          <div class="contacts-adress item-wrap">
-            <div class="contacts-heading">
-              Адрес
+      <div class="row">
+        <div class="col-5">
+          <div class="contacts-leftwrap">
+            <div class="contacts-adress item-wrap">
+              <div class="contacts-heading">
+                Адрес
+              </div>
+              <div class="contacts-info">
+                <address class="contacts-address">Москва, улица Юности, дом 5, строние 4, офис 2</address>
+              </div>
             </div>
-            <div class="contacts-info">
-              <address class="contacts-address">Москва, улица Юности, дом 5, строние 4, офис 2</address>
+            <div class="contacts-tel item-wrap">
+              <div class="contacts-heading">
+                Телефоны
+              </div>
+              <div class="contacts-info ">
+                <a href="tel:84495356434" class="tel">+7 (499) 535-64-34</a>
+                <a href="tel:+74950050544" class="tel">+7 (495) 005-05-44</a>
+              </div>
             </div>
+            <div class="contacts-email item-wrap">
+              <div class="contacts-heading">
+                Email
+              </div>
+              <div class="contacts-info">
+                <a href="mailto:lg.oona@mail.ru" class="email">lg.oona@mail.ru</a>
+                <span class="contacts-email">по вопросам бронирования</span>
+                <a href="mailto:hotels.ln@mail.ru" class="email">hotels.ln@mail.ru</a>
+                <span class="contacts-email">по вопросам сотрудничества</span>
+              </div>
+            </div>
+            <div class="contacts-grafik item-wrap">
+              <div class="contacts-heading">
+                График
+              </div>
+              <div class="contacts-info">
+                <span class="grafik">Понедельник - пятница, <br> с 10:00 до 19:00</span>
+              </div>
+            </div>
+            <button class="contacts-btn"><a href="#" class="contacts-link">Построить маршрут</a></button>
           </div>
-          <div class="contacts-tel item-wrap">
-            <div class="contacts-heading">
-              Телефоны
-            </div>
-            <div class="contacts-info ">
-              <a href="tel:84495356434" class="tel">+7 (499) 535-64-34</a>
-              <a href="tel:+74950050544" class="tel">+7 (495) 005-05-44</a>
-            </div>
-          </div>
-          <div class="contacts-email item-wrap">
-            <div class="contacts-heading">
-              Email
-            </div>
-            <div class="contacts-info">
-              <a href="mailto:lg.oona@mail.ru" class="email">lg.oona@mail.ru</a>
-              <span class="contacts-email">по вопросам бронирования</span>
-              <a href="mailto:hotels.ln@mail.ru" class="email">hotels.ln@mail.ru</a>
-              <span class="contacts-email">по вопросам сотрудничества</span>
-            </div>
-          </div>
-          <div class="contacts-grafik item-wrap">
-            <div class="contacts-heading">
-              График
-            </div>
-            <div class="contacts-info">
-              <span class="grafik">Понедельник - пятница, <br> с 10:00 до 19:00</span>
-            </div>
-          </div>
-          <button class="contacts-btn"><a href="#" class="contacts-link">Построить маршрут</a></button>
         </div>
-        <div class="contacts-rightwrap">
-          <h2 class="form-heading">
+        <div class="col-7">
+          <div class="contacts-rightwrap">
+
+          </div>
+          <!-- <h2 class="form-heading">
             Напишите нам
           </h2>
           <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="contacts-form">
@@ -543,7 +607,7 @@
               <input type="tel" name="tel" id="tel" placeholder="+7" class="tel">
               <textarea name="texta" id="texta" placeholder="Сообщение..." cols="39" rows="10" class="texta"></textarea>
               <button type="submit" class="form_btn">Отправить</button>
-          </form>
+          </form> -->
         </div>
       </div>
     </div>
