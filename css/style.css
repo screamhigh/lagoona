@@ -804,7 +804,7 @@ color: #333333;
   border-radius: 15px;
   min-width: 653px;
   min-height: 100%;
-  background-image: url(../img/reception.jpg);
+  background-image: url("../img/reception.jpg");
   background-repeat: no-repeat;
   background-size: auto 100%;
   overflow: hidden;
